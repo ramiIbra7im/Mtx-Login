@@ -192,4 +192,28 @@ p {
      background-color: lightgreen;
 }
 }
+@media (max-width: 900px) {
+ .content {
+  float:none;
+  width:100%;
+}
+.slider-left {
+ float:none;
+ width:100%;
+}
+}
+@media (max-width: 400px) {
+ .content {
+  float:none;
+  width:100%;
+}
+.slider-left {
+ float:none;
+ width:100%;
+}
+.warp-all {
+ width:98%;
+ 
+}
+}
 
