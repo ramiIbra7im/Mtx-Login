@@ -187,33 +187,14 @@ body{
   
 
 }
-@media screen and (min-width: 480px) {
-p {
-     background-color: lightgreen;
-}
-}
-@media (max-width: 900px) {
- .content {
-  float:none;
-  width:100%;
-}
-.slider-left {
- float:none;
- width:100%;
-}
-}
-@media (max-width: 400px) {
- .content {
-  float:none;
-  width:100%;
-}
-.slider-left {
- float:none;
- width:100%;
-}
-.warp-all {
- width:98%;
- 
+@media screen and (max-width: 1200px) {
+.menu {
+  width: 100%;
 }
 }
 
+@media screen and (min-width: 1200px) {
+.menu {
+  width: 30%;
+}
+}
