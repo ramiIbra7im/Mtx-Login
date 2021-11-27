@@ -1,0 +1,190 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url(bac.jpg);
+    background-size:100%;
+}
+.divup {
+    background-color: #06111C;
+    width: 100%;
+    height: 120px;
+}
+.textlog {
+    margin: 20px 160px;
+    padding: 10px 0;
+    font-size: 50px;
+    color: #06111C;
+ 
+}
+.sershinput {
+    width: 200px;
+    height: 30px;
+    margin: 45px 15px;
+    border-radius: 5px;
+    border: solid 1px #121317;
+    background-color: #121317;
+    color: white;
+    border-bottom: solid 3px #BB2020;
+    font-size: 18px;
+}
+.searshbtn {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #121317;
+    border-color: #FFEB4D;
+    color: white;
+    
+}
+.sershinput:focus {
+    outline-color: #FFEB4D;
+    border-color: #FFEB4D;  
+}
+.divlog {
+    width: 30%;
+    height: 500px;
+    margin: 100px 950px;
+    border-radius: 60px;
+    animation:bor ease-in 2S  infinite;
+    animation:bor1 ease-in 2S  infinite;
+}
+.email{
+    width:250px;
+    height:30px;
+    margin:20px 100px;
+    outline:none;
+    border-radius:10px;
+    border-bottom:solid 6px black;
+    text-align:center;
+    color:black;
+}
+.email:hover{
+    outline:none;
+     
+     background-color:black;
+     border-bottom:solid 6px white;
+     color:white;
+}
+.pass{
+    width:250px;
+    height:30px;
+    margin:0 100px;
+    outline:none;
+    border:none;
+    border-radius:10px;
+    border-bottom:solid 6px black;
+    text-align:center;
+}
+    .pass:hover {
+        outline: none;
+        background-color: black;
+        border-bottom: solid 6px white;
+        color: white;
+    }
+.btn{
+    width:200px;
+    height:30px;
+    margin:30px 125px;
+    outline:none;
+    border-radius:10px;
+    background-color:white;
+    font-size:16px;
+}
+.btn:hover{
+    background-color:black;
+    color:white;
+}
+.remember{
+    font-size:16px;
+    margin:-15px 170px;
+}
+.box{
+    margin:-5px 280px;
+    width:20px;
+    height:20px;
+}
+.Designertext {
+    font-size: 80px;
+    margin: 0px 50px;
+}
+.prg{
+    width:500px;
+    height:400px;
+    margin:-550px 20px;
+    font-size:18px;
+}
+.SignUp{
+    font-size:22px;
+    color:black;
+    height:30px;
+    position:relative;
+    top:250px;
+    left:165px;
+    
+    
+}
+:link{
+    bottom:10px;
+}
+.email:focus, .pass:focus {
+    width: 280px;
+    border-color: #BB2020;
+
+}
+.home{
+    margin:-50px 400px;
+    color:white;
+    font-size:24px;
+   width:68PX;
+    
+    
+}
+.About {
+    margin: 20px 600px;
+    color: white;
+    font-size: 24px;
+    display: block;
+    width: 70PX;
+ 
+}
+.service {
+    margin: -50px 800px;
+    color: white;
+    font-size: 24px;
+    display: block;
+    width: 75PX;
+    
+}
+.des {
+    margin: 20px 1000px;
+    color: white;
+    font-size: 24px;
+    width: 75PX;
+    
+}
+.contact {
+    margin: -50px 1200px;
+    color: white;
+    font-size: 24px;
+    width: 80PX;
+    
+}
+@keyframes bor{
+    0%{box-shadow : 4px 4px  #BB2020 }  
+    40%{box-shadow : 4px -4px  #BB2020 }   
+    60%{box-shadow : 4px 4px  #BB2020 }
+    100%{box-shadow : 4px 4px  #BB2020 }
+  
+
+}
+
+@keyframes bor1{
+    0%{box-shadow : -4px 4px  #06111C }  
+    40%{box-shadow : 4px 4px  #BB2020 }   
+    60%{box-shadow : -4px 4px  #06111C }
+    100%{box-shadow : -4px 4px  #06111C }
+  
+
+}
+
