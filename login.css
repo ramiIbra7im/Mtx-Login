@@ -187,4 +187,9 @@ body{
   
 
 }
+@media screen and (min-width: 480px) {
+p {
+     background-color: lightgreen;
+}
+}
 
